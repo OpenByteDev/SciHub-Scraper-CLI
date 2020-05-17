@@ -1,6 +1,6 @@
 [package]
 name = "scihub-scraper-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI utility to scrap paper informations from sci-hub."
 readme = "README.md"
 repository = "https://github.com/OpenByteDev/scihub-scraper-cli"
@@ -10,6 +10,6 @@ edition = "2018"
 keywords = ["scraper", "sci-hub", "web"]
 
 [dependencies]
-scihub-scraper = "0.4.1"
+scihub-scraper = "0.4"
 structopt = "0.3"
 tokio = { version = "0.2", features = ["macros"] }
