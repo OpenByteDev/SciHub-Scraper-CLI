@@ -1,6 +1,6 @@
 [package]
 name = "scihub-scraper-cli"
-version = "0.1.1"
+version = "0.2.0"
 description = "CLI utility to scrap paper informations from sci-hub."
 readme = "README.md"
 repository = "https://github.com/OpenByteDev/scihub-scraper-cli"
