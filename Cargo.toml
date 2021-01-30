@@ -10,6 +10,6 @@ edition = "2018"
 keywords = ["scraper", "sci-hub", "web"]
 
 [dependencies]
-scihub-scraper = "0.4"
+scihub-scraper = "0.5"
 structopt = "0.3"
-tokio = { version = "0.2", features = ["macros"] }
+tokio = { version = "1.1", features = ["rt", "rt-multi-thread", "macros"] }

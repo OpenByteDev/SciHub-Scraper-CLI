@@ -41,7 +41,6 @@ async fn main() {
         }
         Err(error) => {
             println!("Failed to fetch paper: {}", error);
-            return;
         }
     }
 }
