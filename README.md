@@ -1,8 +1,8 @@
 # SciHub Scraper CLI
 
 [![crates.io](https://img.shields.io/crates/v/scihub_scraper_cli.svg)](https://crates.io/crates/scihub_scraper_cli)
-[![Documentation](https://docs.rs/scihub_scraper_cli/badge.svg)](https://docs.rs/scihub_scraper_cli)
-[![MIT](https://img.shields.io/crates/l/scihub_scraper_cli.svg)](./LICENSE)
+[![dependency status](https://deps.rs/repo/github/openbytedev/scihub-scraper-cli/status.svg)](https://deps.rs/repo/github/openbytedev/scihub-scraper-cli)
+[![MIT](https://img.shields.io/crates/l/scihub_scraper_cli.svg)](https://github.com/OpenByteDev/SciHub-Scraper-CLI/blob/master/LICENSE)
 
 SciHub Scraper CLI can be used to scrap paper info including its pdf url from sci-hub.
  
@@ -14,4 +14,4 @@ $ scihub-scraper-cli --paper [doi]
 ```
 
 ## License
-Licensed under MIT license ([LICENSE](./LICENSE) or http://opensource.org/licenses/MIT)
+Licensed under MIT license ([LICENSE](https://github.com/OpenByteDev/SciHub-Scraper-CLI/blob/master/LICENSE) or http://opensource.org/licenses/MIT)
