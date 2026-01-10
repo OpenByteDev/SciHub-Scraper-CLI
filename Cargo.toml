@@ -1,15 +1,16 @@
 [package]
 name = "scihub-scraper-cli"
-version = "0.2.2"
+version = "0.3.0"
 description = "CLI utility to scrap paper informations from sci-hub."
 readme = "README.md"
 repository = "https://github.com/OpenByteDev/scihub-scraper-cli"
 license = "MIT"
 authors = ["OpenByte <development.openbyte@gmail.com>"]
-edition = "2018"
+edition = "2024"
 keywords = ["scraper", "sci-hub", "web"]
 
 [dependencies]
-scihub-scraper = "0.5"
+scihub-scraper = "0.6"
 structopt = "0.3"
-tokio = { version = "1.2", features = ["rt", "rt-multi-thread", "macros"] }
+tokio = { version = "1.49", features = ["rt", "rt-multi-thread", "macros", "fs"] }
+reqwest = "0.13"
