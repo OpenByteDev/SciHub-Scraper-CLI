@@ -12,5 +12,5 @@ keywords = ["scraper", "sci-hub", "web"]
 [dependencies]
 scihub-scraper = "0.6"
 structopt = "0.3"
-tokio = { version = "1.49", features = ["rt", "rt-multi-thread", "macros", "fs"] }
+tokio = { version = "1.53", features = ["rt", "rt-multi-thread", "macros", "fs"] }
 reqwest = "0.13"
