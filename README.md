@@ -5,8 +5,6 @@
 [![MIT](https://img.shields.io/crates/l/scihub_scraper_cli.svg)](https://github.com/OpenByteDev/SciHub-Scraper-CLI/blob/master/LICENSE)
 
 SciHub Scraper CLI can be used to scrap paper info including its pdf url from sci-hub.
- 
-Sci-hub domains are automatically fetched from [sci-hub.now.sh](https://sci-hub.now.sh/).
 
 ## Usage
 ```cmd
